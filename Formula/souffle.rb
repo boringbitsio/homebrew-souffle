@@ -13,6 +13,7 @@ class Souffle < Formula
   depends_on "mcpp"
   depends_on "pkg-config" => :build
   depends_on "gcc"
+  depends_on "swig"
 
   def install
     if build.head?
